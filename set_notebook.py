@@ -15,7 +15,7 @@ from sympy import (Eq, FiniteSet, Function, Interval, N, Rational, S, Union, ini
 from sympy.solvers import solve
 
 get_ipython().run_line_magic('matplotlib', 'inline')
-a, b, c = symbols('a b c')
+a, b, c, d = symbols('a b c d')
 x, y, z, t = symbols('x y z t')
 k, m, n = symbols('k m n', integer=True)
 f, g, h = symbols('f g h', cls=Function)
