@@ -1,6 +1,6 @@
-apipkg==1.5
-asn1crypto==0.24.0
-atomicwrites==1.2.1
+apipkg
+asn1crypto
+atomicwrites
 attrs==18.2.0
 backcall==0.1.0
 bleach==3.0.2
