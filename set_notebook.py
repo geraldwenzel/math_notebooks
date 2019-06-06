@@ -10,8 +10,10 @@ from IPython import get_ipython
 import matplotlib.pyplot as plt
 import numpy as np
 #https://github.com/sympy/sympy/issues/13319
-from sympy import (Eq, FiniteSet, Function, Float, Interval, N, Rational, S, Union, init_printing, lcm,
-                   nsimplify, oo, pprint, real_root, solveset, sqrt, symbols, pi, sympify)
+from sympy import (Eq, FiniteSet, Function, Float, Interval, N, Rational, S,
+                   Union)
+from sympy import (div, init_printing, lcm, nsimplify, oo, pprint, real_root,
+                   solveset, sqrt, symbols, pi, sympify)
 from sympy.solvers import solve
 
 get_ipython().run_line_magic('matplotlib', 'inline')
