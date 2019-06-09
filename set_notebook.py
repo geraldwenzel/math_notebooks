@@ -18,9 +18,10 @@ from sympy.solvers import solve
 
 get_ipython().run_line_magic('matplotlib', 'inline')
 a, b, c, d = symbols('a b c d')
-x, y, z, t = symbols('x y z t')
 k, m, n = symbols('k m n', integer=True)
 f, g, h = symbols('f g h', cls=Function)
+s, t = symbols('s t')
+x, y, z = symbols('x y z')
 
 init_printing(use_latex='mathjax')
 
