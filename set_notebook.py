@@ -21,6 +21,7 @@ a, b, c, d = symbols('a b c d')
 k, m, n = symbols('k m n', integer=True)
 f, g, h = symbols('f g h', cls=Function)
 r, s, t = symbols('r s t')
+u, v = symbols('u v')
 x, y, z = symbols('x y z')
 
 init_printing(use_latex='mathjax')
