@@ -13,7 +13,7 @@ import numpy as np
 from sympy import (Eq, FiniteSet, Function, Float, Interval, N, Rational, S,
                    Union)
 from sympy import (div, init_printing, lcm, nsimplify, oo, pprint, real_root,
-                   solveset, sqrt, symbols, pi, sympify)
+                   solveset, sqrt, symbols, pi, powdenest, sympify)
 from sympy.solvers import solve
 
 get_ipython().run_line_magic('matplotlib', 'inline')
