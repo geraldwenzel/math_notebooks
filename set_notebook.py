@@ -31,3 +31,5 @@ init_printing(use_latex='mathjax')
 # round decimals up if last digit is 5
 getcontext().rounding=ROUND_HALF_UP
 
+# raise exception on numpy error
+np.seterr('raise')
