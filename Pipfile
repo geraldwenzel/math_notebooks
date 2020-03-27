@@ -4,15 +4,15 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
-
-[packages]
-jupyterlab = "*"
-matplotlib = "*"
-sympy = "*"
 pytest = "*"
 nbval = "*"
 pytest-xdist = "*"
 pre-commit = "*"
+    
+[packages]
+jupyterlab = "*"
+matplotlib = "*"
+sympy = "*"
 
 [requires]
 python_version = "3.7"
