@@ -1,0 +1,6 @@
+-   repo: local
+    hooks:
+    -   id: tests
+        name: run tests
+        entry: pytest --nbval
+        language: system
