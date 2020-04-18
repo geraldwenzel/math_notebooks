@@ -4,3 +4,5 @@ Jupyter notebooks that contain the following:
 * notes regarding mathematical theorems and properties  
 
 This repo is basically my math cheatsheet.  
+
+set_notebook.py is ran in the first cell of notebooks to set imports and variables.
