@@ -10,8 +10,7 @@ from IPython import get_ipython
 import matplotlib.pyplot as plt
 import numpy as np
 #https://github.com/sympy/sympy/issues/13319
-from sympy import (Eq, FiniteSet, Function, Float, Interval, N, Poly, Rational, S,
-                   Union)
+from sympy import (Eq, FiniteSet, Function, Float, Interval, N, Rational, S, Union)
 from sympy import (cos, div, init_printing, lcm, nsimplify, nsolve, oo, pprint, real_root, real_roots,
                    simplify, solveset, sqrt, symbols, pi, powdenest, sympify)
 from sympy.solvers import solve
