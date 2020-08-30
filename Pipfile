@@ -8,11 +8,12 @@ pytest = "*"
 nbval = "*"
 pytest-xdist = "*"
 pre-commit = "*"
-    
+
 [packages]
 jupyterlab = "*"
 matplotlib = "*"
 sympy = "*"
+pandoc = "*"
 
 [requires]
-python_version = "3.7"
+python_version = "3.8.1"
