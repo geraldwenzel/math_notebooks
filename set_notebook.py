@@ -1,6 +1,5 @@
 # set all imports for notebook
 
-
 from decimal import Context, Decimal, ROUND_HALF_UP, getcontext
 
 import re
@@ -11,8 +10,9 @@ import numpy as np
 #https://github.com/sympy/sympy/issues/13319
 from sympy import (Eq, FiniteSet, Function, Float, Interval, N, Rational, S, Union)
 from sympy import (cos, sin, tan, cot, sec, csc)
-from sympy import (div, init_printing, lcm, nsimplify, nsolve, oo, pprint, real_root, real_roots,
-                   simplify, solveset, sqrt, symbols, pi, powdenest, sympify)
+from sympy import (div, init_printing, factorint, lcm, nsimplify, nsolve, oo, 
+                   pprint, real_root, real_roots, simplify, solveset, sqrt, 
+                   symbols, pi, powdenest, sympify)
 from sympy.solvers import solve
 
 get_ipython().run_line_magic('matplotlib', 'inline')
