@@ -14,6 +14,7 @@ jupyterlab = "*"
 matplotlib = "*"
 sympy = "*"
 pandoc = "*"
+ipywidgets = "*"
 
 [requires]
 python_version = "3.8.1"
