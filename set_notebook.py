@@ -17,7 +17,6 @@ from sympy import (div, init_printing, factor, factorint, lcm, nsimplify,
 from sympy.solvers import solve
 
 get_ipython().run_line_magic('matplotlib', 'inline')
-get_ipython().run_line_magic('matplotlib', 'notebook')
 
 a, b, c, d = symbols('a b c d')
 k, m, n = symbols('k m n', integer=True)
