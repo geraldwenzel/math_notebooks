@@ -5,6 +5,7 @@ from decimal import Context, Decimal, ROUND_HALF_UP, getcontext
 import re
 
 from IPython import get_ipython
+from ipywidgets import interact
 import matplotlib.pyplot as plt
 import numpy as np
 #https://github.com/sympy/sympy/issues/13319
@@ -16,6 +17,8 @@ from sympy import (div, init_printing, factor, factorint, lcm, nsimplify,
 from sympy.solvers import solve
 
 get_ipython().run_line_magic('matplotlib', 'inline')
+get_ipython().run_line_magic('matplotlib', 'notebook')
+
 a, b, c, d = symbols('a b c d')
 k, m, n = symbols('k m n', integer=True)
 f, g, h = symbols('f g h', cls=Function)
