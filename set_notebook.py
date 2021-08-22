@@ -5,7 +5,7 @@ from decimal import Context, Decimal, ROUND_HALF_UP, getcontext
 import re
 
 from IPython import get_ipython
-from ipywidgets import interact
+from ipywidgets import interact, widgets
 import matplotlib.pyplot as plt
 import numpy as np
 #https://github.com/sympy/sympy/issues/13319
