@@ -12,7 +12,7 @@ import numpy as np
 from sympy import (Eq, FiniteSet, Function, Float, Interval, N, Rational, S, Union)
 from sympy import (cos, sin, tan, cot, sec, csc)
 from sympy import (div, init_printing, factor, factorint, lcm, nsimplify,
-                   nsolve, oo, pprint, real_root, real_roots, simplify,
+                   nsolve, oo, pprint, radsimp, real_root, real_roots, simplify,
                    solveset, sqrt, symbols, pi, powdenest, sympify)
 from sympy.solvers import solve
 
