@@ -7,6 +7,7 @@ import re
 from IPython import get_ipython
 from ipywidgets import interact, widgets
 import matplotlib.pyplot as plt
+import mpmath
 import numpy as np
 #https://github.com/sympy/sympy/issues/13319
 from sympy import (Eq, FiniteSet, Function, Float, Interval, N, Rational, S, Union)
