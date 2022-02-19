@@ -6,6 +6,7 @@ import re
 
 from IPython import get_ipython
 from ipywidgets import interact, widgets
+from matplotlib.patches import Rectangle
 import matplotlib.pyplot as plt
 import mpmath
 import numpy as np
