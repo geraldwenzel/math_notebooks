@@ -8,6 +8,7 @@ pytest = "*"
 nbval = "*"
 pytest-xdist = "*"
 pre-commit = "*"
+python-lsp-server = {extras = ["all"], version = "*"}
 
 [packages]
 jupyterlab = "*"
