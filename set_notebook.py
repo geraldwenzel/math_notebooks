@@ -1,4 +1,4 @@
-# set all imports for notebook
+"""set all imports for notebook"""
 
 from decimal import Context, Decimal, ROUND_HALF_UP, getcontext
 
