@@ -1,4 +1,4 @@
-"""set all imports for notebook"""
+"""Set all imports for notebook."""
 
 from decimal import Context, Decimal, ROUND_HALF_UP, getcontext
 
@@ -11,7 +11,8 @@ import matplotlib.pyplot as plt
 import mpmath
 import numpy as np
 #https://github.com/sympy/sympy/issues/13319
-from sympy import (Eq, FiniteSet, Function, Float, Interval, N, Rational, S, Union)
+from sympy import (Eq, FiniteSet, Function, Float, I, Interval, N, Rational, S,
+                   Union)
 from sympy import (cos, sin, tan, cot, sec, csc)
 from sympy import (div, init_printing, factor, factorint, lcm, limit, nsimplify,
                    nsolve, oo, pprint, radsimp, real_root, real_roots, root,
@@ -36,3 +37,5 @@ getcontext().rounding=ROUND_HALF_UP
 
 # raise exception on numpy error
 np.seterr('raise')
+
+
