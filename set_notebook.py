@@ -14,9 +14,9 @@ import numpy as np
 from sympy import (Eq, FiniteSet, Function, Float, I, Interval, N, Rational, S,
                    Union)
 from sympy import (cos, sin, tan, cot, sec, csc)
-from sympy import (conjugate, div, expand, init_printing, factor, factorint, 
-                   lcm, limit, nsimplify, nsolve, oo, pprint, radsimp, 
-                   real_root, real_roots, root, simplify, solveset, sqrt, 
+from sympy import (conjugate, div, expand, init_printing, factor, factorint,
+                   floor, lcm, limit, nsimplify, nsolve, oo, pprint, radsimp,
+                   real_root, real_roots, root, simplify, solveset, sqrt,
                    symbols, pi, powdenest, sympify)
 from sympy.solvers import solve
 
