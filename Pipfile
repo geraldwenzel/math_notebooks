@@ -16,6 +16,7 @@ matplotlib = "*"
 sympy = "*"
 pandoc = "*"
 ipywidgets = "*"
+ipympl = "*"
 
 [requires]
 python_version = "3.8.1"
