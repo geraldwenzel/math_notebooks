@@ -5,5 +5,7 @@ USER root
 # is in a group with the same name (in this case jovyan). So we must first make that so.
 RUN groupadd jovyan \
     && usermod -g jovyan -a -G users jovyan
+RUN pip install -U pytest
+RUN pip install -U nbval
 
 USER jovyan
