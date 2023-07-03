@@ -7,5 +7,6 @@ RUN groupadd jovyan \
     && usermod -g jovyan -a -G users jovyan
 RUN pip install -U pytest
 RUN pip install -U nbval
-
+RUN pip install pre-commit
+RUN echo "alias g='git'" >> /home/jovyan/.bashrc
 USER jovyan

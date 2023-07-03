@@ -37,9 +37,12 @@
 			// Add the IDs of extensions you want installed when the container is created.
 			"extensions": ["ms-python.python", "ms-toolsai.jupyter"]
 		}
-	}
+	},
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "pip3 install --user -r requirements.txt",
+	"postCreateCommand": "pre-commit install",
+	"mounts": [
+		"source=${localEnv:HOME}${localEnv:USERPROFILE}/.gitconfig,target=/home/jovyan/.gitconfig,type=bind,consistency=cached"
+	]
 
 	// Configure tool-specific properties.
 	// "customizations": {},
