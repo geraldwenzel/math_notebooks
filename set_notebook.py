@@ -1,78 +1,58 @@
 """Set all imports for notebook."""
 # pylint: disable=unused-import
 
+import re
+from decimal import ROUND_HALF_UP, Context, Decimal, getcontext
 
-# from decimal import Context, Decimal, ROUND_HALF_UP, getcontext
-
-# import re
-
-# from IPython import get_ipython
-# from ipywidgets import interact, widgets
-# from matplotlib.patches import Rectangle
-# import matplotlib.pyplot as plt
-# import mpmath
-# import numpy as np
-
-# from sympy import Eq, FiniteSet, Function, Float, I, Interval, N, Rational, S, Union
-# from sympy import cos, sin, tan, cot, sec, csc
-# delete below after refactor
-# # https://github.com/sympy/sympy/issues/13319
+import matplotlib.pyplot as plt
+import mpmath
+import numpy as np
+from ipywidgets import interact, widgets
+from matplotlib.patches import Rectangle
 from sympy import (
     Eq,
     FiniteSet,
+    Float,
+    Function,
+    Interval,
+    N,
     Rational,
+    S,
     Union,
+    cos,
+    cot,
+    csc,
+    div,
     expand,
+    factor,
+    factorint,
+    floor,
     lcm,
+    limit,
     nsimplify,
+    nsolve,
+    oo,
     pi,
+    powdenest,
+    radsimp,
+    real_root,
+    real_roots,
+    sec,
+    simplify,
+    sin,
+    solveset,
     sqrt,
     symbols,
+    tan,
 )
-
-# from sympy import (
-#     conjugate,
-#     div,
-#     expand,
-#     init_printing,
-#     factor,
-#     factorint,
-#     floor,
-#     lcm,
-#     limit,
-#     nsimplify,
-#     nsolve,
-#     oo,
-#     pprint,
-#     radsimp,
-#     real_root,
-#     real_roots,
-#     root,
-#     simplify,
-#     solveset,
-#     sqrt,
-#     symbols,
-#     pi,
-#     powdenest,
-#     sympify,
-# )
 from sympy.solvers import solve
 
-# get_ipython().run_line_magic("matplotlib", "inline")
-
 a, b, c, d = symbols("a b c d")
-# k, m, n = symbols("k m n", integer=True)
-# f, g, h = symbols("f g h", cls=Function)
-# q, r, s, t = symbols("q r s t")
-# u, v = symbols("u v")
+k, m, n = symbols("k m n", integer=True)
+f, g, h = symbols("f g h", cls=Function)
+q, r, s, t = symbols("q r s t")
+u, v = symbols("u v")
 x, y, z = symbols("x y z")
 
-# init_printing(use_latex="mathjax")
-
-# # https://github.com/jupyter/help/issues/109
-
-# # round decimals up if last digit is 5
-# getcontext().rounding = ROUND_HALF_UP
-
-# # raise exception on numpy error
-# np.seterr("raise")
+# round decimals up if last digit is 5
+getcontext().rounding = ROUND_HALF_UP
