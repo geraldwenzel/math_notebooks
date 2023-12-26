@@ -38,6 +38,7 @@
       "extensions": [
         "esbenp.prettier-vscode",
         "github.copilot",
+        "james-yu.latex-workshop",
         "ms-python.python",
         "ms-toolsai.jupyter",
         "ms-python.black-formatter",
