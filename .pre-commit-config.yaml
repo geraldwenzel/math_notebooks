@@ -3,5 +3,6 @@ repos:
     hooks:
     -   id: tests
         name: run tests
-        entry: pytest --nbval-lax
+        files: \.ipynb$
+        entry: pytest --nbval-lax --verbose -p no:python
         language: system

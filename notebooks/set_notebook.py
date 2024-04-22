@@ -1,4 +1,4 @@
-"""Set all imports for notebook."""
+"""Set all imports and variables for notebook."""
 # pylint: disable=unused-import
 
 import re
