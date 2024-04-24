@@ -5,8 +5,8 @@ USER root
 # is in a group with the same name (in this case jovyan). So we must first make that so.
 RUN groupadd jovyan \
     && usermod -g jovyan -a -G users jovyan
-RUN pip install -U pytest
-RUN pip install -U nbval
-RUN pip install pre-commit
+RUN pip install --upgrade pytest
+RUN pip install --upgrade nbval
+RUN pip install --upgrade pre-commit
 RUN echo "alias g='git'" >> /home/jovyan/.bashrc
 USER jovyan
