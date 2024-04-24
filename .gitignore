@@ -1,5 +1,7 @@
-.ipynb_checkpoints
 notebooks/*
 !notebooks/interesting_examples.ipynb
 !notebooks/math.ipynb
 !notebooks/set_notebook.py
+
+.ipynb_checkpoints
+__pycache__/
