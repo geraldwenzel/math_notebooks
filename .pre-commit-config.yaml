@@ -1,7 +1,7 @@
 repos:
--   repo: local
+  - repo: local
     hooks:
-    -   id: tests
+      - id: tests
         name: run tests
         files: \.ipynb$
         entry: pytest --nbval-lax
