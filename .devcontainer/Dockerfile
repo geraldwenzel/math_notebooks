@@ -8,5 +8,6 @@ RUN groupadd jovyan \
 RUN pip install --upgrade pytest
 RUN pip install --upgrade nbval
 RUN pip install --upgrade pre-commit
+RUN pip install --upgrade nbstripout
 RUN echo "alias g='git'" >> /home/jovyan/.bashrc
 USER jovyan
