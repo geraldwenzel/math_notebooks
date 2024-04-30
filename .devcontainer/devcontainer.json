@@ -48,7 +48,7 @@
     }
   },
   // Use 'postCreateCommand' to run commands after the container is created.
-  "postCreateCommand": "pre-commit install",
+  // "postCreateCommand": 
   "mounts": [
     "source=${localEnv:HOME}${localEnv:USERPROFILE}/.gitconfig,target=/home/jovyan/.gitconfig,type=bind,consistency=cached"
   ]
