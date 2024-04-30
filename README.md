@@ -16,3 +16,5 @@ This repo is basically my math cheatsheet.
 }
 ```
 
+## One time setup steps
+`pre-commit install` and `nbstripout --install` have been run once manually. Because the changes from these commands persist in the `.git` directory, the commands do not need to be executed if the docker container is rebuilt.
