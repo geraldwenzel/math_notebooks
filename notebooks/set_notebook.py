@@ -1,4 +1,5 @@
 """Set all imports and variables for notebook."""
+
 # pylint: disable=unused-import
 
 import re
@@ -37,6 +38,7 @@ from sympy import (
     radsimp,
     real_root,
     real_roots,
+    root,
     sec,
     simplify,
     sin,
