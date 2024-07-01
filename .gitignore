@@ -3,5 +3,11 @@ notebooks/*
 !notebooks/math.ipynb
 !notebooks/set_notebook.py
 
+# If a file is in a subdir, an exception needs to be added for the subdir,
+# and then another exception needs to be added for the file.
+!notebooks/algebra
+notebooks/algebra/*
+!notebooks/algebra/radical-equations.ipynb
+
 .ipynb_checkpoints
 __pycache__/
