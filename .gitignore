@@ -7,6 +7,7 @@ notebooks/*
 # and then another exception needs to be added for the file.
 !notebooks/algebra
 notebooks/algebra/*
+!notebooks/algebra/absolute-values.ipynb
 !notebooks/algebra/radical-equations.ipynb
 
 .ipynb_checkpoints
