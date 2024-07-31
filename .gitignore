@@ -8,6 +8,7 @@ notebooks/*
 !notebooks/algebra
 notebooks/algebra/*
 !notebooks/algebra/absolute-values.ipynb
+!notebooks/algebra/factoring-equations.ipynb
 !notebooks/algebra/radical-equations.ipynb
 
 .ipynb_checkpoints
