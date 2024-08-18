@@ -1,5 +1,6 @@
 {
-    "python.analysis.diagnosticSeverityOverrides": {
-        "reportUndefinedVariable": "none"
-    }
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportUndefinedVariable": "none"
+  },
+  "cSpell.words": ["cbrt"]
 }
