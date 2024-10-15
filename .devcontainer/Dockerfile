@@ -5,9 +5,22 @@ USER root
 # is in a group with the same name (in this case jovyan). So we must first make that so.
 RUN groupadd jovyan \
     && usermod -g jovyan -a -G users jovyan
-RUN pip install --upgrade pytest
-RUN pip install --upgrade nbval
-RUN pip install --upgrade pre-commit
-RUN pip install --upgrade nbstripout
-RUN echo "alias g='git'" >> /home/jovyan/.bashrc
+
+# Install nodejs and npm
+RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
+    && apt-get -y install --no-install-recommends npm \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/* 
+
+# Install `n` version manager globally via `npm`
+RUN npm install -g n diff-so-fancy \
+    && n stable
+
+# Install python packages
+RUN pip install --upgrade pytest nbval pre-commit nbstripout
+
 USER jovyan
+
+# Configure shell
+RUN echo 'alias g=git' >> /home/jovyan/.bash_aliases
+
