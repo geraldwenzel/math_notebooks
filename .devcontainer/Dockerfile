@@ -6,13 +6,14 @@ USER root
 RUN groupadd jovyan \
     && usermod -g jovyan -a -G users jovyan
 
-# Install nodejs and npm
+# Install npm
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
     && apt-get -y install --no-install-recommends npm \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/* 
 
-# Install `n` version manager globally via `npm`
+# Install `n` version manager and then use n to install the latest 
+# stable node version
 RUN npm install -g n diff-so-fancy \
     && n stable
 
