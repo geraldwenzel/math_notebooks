@@ -18,3 +18,19 @@ This repo is basically my math cheatsheet.
 
 ## One time setup steps
 `pre-commit install` and `nbstripout --install` have been run once manually. Because the changes from these commands persist in the `.git` directory, the commands do not need to be executed if the docker container is rebuilt.
+
+## Config Errors
+
+If you encounter what looks like an outdated python version per the error below:
+
+```bash
+"/opt/conda/bin/python3.11" -m nbstripout: 1: /opt/conda/bin/python3.11: not found
+error: external filter '"/opt/conda/bin/python3.11" -m nbstripout' failed 127
+```
+
+Run the following commands:
+
+```bash
+nbstripout --uninstall
+nbstripout --install
+```
