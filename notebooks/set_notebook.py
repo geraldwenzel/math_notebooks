@@ -8,8 +8,10 @@ from decimal import ROUND_HALF_UP, Context, Decimal, getcontext
 import matplotlib.pyplot as plt
 import mpmath
 import numpy as np
+from IPython.display import Image, display
 from ipywidgets import interact, widgets
 from matplotlib.patches import Rectangle
+from PIL import Image as PILImage
 from sympy import (
     Eq,
     FiniteSet,
