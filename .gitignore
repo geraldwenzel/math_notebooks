@@ -10,6 +10,7 @@ notebooks/algebra/*
 !notebooks/algebra/absolute-values.ipynb
 !notebooks/algebra/factoring-equations.ipynb
 !notebooks/algebra/radical-equations.ipynb
+!notebooks/algebra/solving-cubic-equations.ipynb
 
 .ipynb_checkpoints
 __pycache__/
